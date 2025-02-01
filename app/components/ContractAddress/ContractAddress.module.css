@@ -1,0 +1,39 @@
+.main {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.caText {
+	padding: 20px;
+	background-color: white;
+	font-family: dynapuff;
+	font-size: 28px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border: 5px solid black;
+	border-right: 2.5px solid black;
+	font-weight: bold;
+}
+
+.copyButton {
+	padding: 20px;
+	background-color: rgb(255, 44, 44);
+	font-family: dynapuff;
+	font-size: 28px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border: 5px solid black;
+	border-left: 2.5px solid black;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.copyButton:active {
+	background-color: rgb(186, 49, 49);
+}
