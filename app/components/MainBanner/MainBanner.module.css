@@ -11,3 +11,21 @@
 	object-fit: cover;
 	object-position: center 90%;
 }
+
+@media (max-width: 1400px) {
+	.main {
+		height: 480px;
+		width: 100%;
+		overflow-y: hidden;
+		background-color: rgba(240, 248, 255, 0);
+	}
+}
+
+@media (max-width: 800px) {
+	.main {
+		height: 430px;
+		width: 100%;
+		overflow-y: hidden;
+		background-color: rgba(240, 248, 255, 0);
+	}
+}

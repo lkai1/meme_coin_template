@@ -1,9 +1,9 @@
 "use client"
 
-import styles from "./Tokenomics.module.css"
+import styles from "./TokenomicsSlide.module.css"
 import { motion } from "framer-motion"
 
-const Tokenomics = () => {
+const TokenomicsSlide = () => {
 	return (
 		<div className={styles.main}>
 			<motion.div
@@ -80,4 +80,4 @@ const Tokenomics = () => {
 	)
 }
 
-export default Tokenomics
+export default TokenomicsSlide

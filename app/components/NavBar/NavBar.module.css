@@ -18,3 +18,23 @@
 	border-radius: 20px;
 	border: 7px solid black;
 }
+
+@media (max-width: 1400px) {
+	.main {
+		height: 140px;
+	}
+
+	.title {
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 800px) {
+	.main {
+		height: 120px;
+	}
+
+	.title {
+		font-size: 33px;
+	}
+}

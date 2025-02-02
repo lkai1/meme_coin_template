@@ -79,3 +79,232 @@
 	text-align: center;
 	padding: 10px;
 }
+
+@media (max-width: 1400px) {
+
+	.infoImgLeft {
+		height: 600px;
+		width: 400px;
+	}
+
+	.infoTextContainerLeft {
+		height: 600px;
+		width: 400px;
+	}
+
+	.infoImgRight {
+		height: 600px;
+		width: 400px;
+	}
+
+	.infoTextContainerRight {
+		height: 600px;
+		width: 400px;
+	}
+
+	.infoTextTitle {
+		font-size: 35px;
+	}
+
+	.infoText {
+		font-size: 27px;
+	}
+}
+
+@media (max-width: 900px) {
+
+	.infoContainer {
+		flex-direction: column;
+	}
+
+	.infoImgLeft {
+		height: 400px;
+		width: 650px;
+		border-radius: 0;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		border: 7px solid black;
+		border-bottom: 2.5px solid black;
+		object-fit: cover;
+		object-position: 50% 100%;
+	}
+
+	.infoTextContainerLeft {
+		border: 7px solid black;
+		border-top: 2.5px solid black;
+		height: fit-content;
+		width: 650px;
+		border-radius: 0;
+		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
+	}
+
+	.infoImgRight {
+		height: 400px;
+		width: 650px;
+		border-radius: 0;
+		border-bottom-right-radius: 20px;
+		border-bottom-left-radius: 20px;
+		border: 7px solid black;
+		border-top: 2.5px solid black;
+		object-fit: cover;
+		object-position: 80% 50%;
+	}
+
+	.infoTextContainerRight {
+		border: 7px solid black;
+		border-bottom: 2.5px solid black;
+		height: fit-content;
+		width: 650px;
+		border-radius: 0;
+		border-top-right-radius: 20px;
+		border-top-left-radius: 20px;
+	}
+
+	.infoTextTitle {
+		font-size: 28px;
+	}
+
+	.infoText {
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 700px) {
+
+	.infoImgLeft {
+		height: 350px;
+		width: 480px;
+		border-radius: 0;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		border: 7px solid black;
+		border-bottom: 2.5px solid black;
+		object-fit: cover;
+		object-position: 50% 100%;
+	}
+
+	.infoTextContainerLeft {
+		border: 7px solid black;
+		border-top: 2.5px solid black;
+		height: fit-content;
+		width: 480px;
+		border-radius: 0;
+		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
+	}
+
+	.infoImgRight {
+		height: 350px;
+		width: 480px;
+		border-radius: 0;
+		border-bottom-right-radius: 20px;
+		border-bottom-left-radius: 20px;
+		border: 7px solid black;
+		border-top: 2.5px solid black;
+		object-fit: cover;
+		object-position: 80% 50%;
+	}
+
+	.infoTextContainerRight {
+		border: 7px solid black;
+		border-bottom: 2.5px solid black;
+		height: fit-content;
+		width: 480px;
+		border-radius: 0;
+		border-top-right-radius: 20px;
+		border-top-left-radius: 20px;
+	}
+
+	.infoTextTitle {
+		font-size: 25px;
+	}
+
+	.infoText {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 550px) {
+
+	.infoImgLeft {
+		height: 250px;
+		width: 360px;
+	}
+
+	.infoTextContainerLeft {
+		width: 360px;
+	}
+
+	.infoImgRight {
+		height: 250px;
+		width: 360px;
+	}
+
+	.infoTextContainerRight {
+		width: 360px;
+	}
+
+	.infoTextTitle {
+		font-size: 25px;
+	}
+
+	.infoText {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 400px) {
+
+	.infoImgLeft {
+		height: 200px;
+		width: 300px;
+		border-radius: 0;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		border: 7px solid black;
+		border-bottom: 2.5px solid black;
+		object-fit: cover;
+		object-position: 50% 100%;
+	}
+
+	.infoTextContainerLeft {
+		border: 7px solid black;
+		border-top: 2.5px solid black;
+		height: fit-content;
+		width: 300px;
+		border-radius: 0;
+		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
+	}
+
+	.infoImgRight {
+		height: 200px;
+		width: 300px;
+		border-radius: 0;
+		border-bottom-right-radius: 20px;
+		border-bottom-left-radius: 20px;
+		border: 7px solid black;
+		border-top: 2.5px solid black;
+		object-fit: cover;
+		object-position: 80% 50%;
+	}
+
+	.infoTextContainerRight {
+		border: 7px solid black;
+		border-bottom: 2.5px solid black;
+		height: fit-content;
+		width: 300px;
+		border-radius: 0;
+		border-top-right-radius: 20px;
+		border-top-left-radius: 20px;
+	}
+
+	.infoTextTitle {
+		font-size: 25px;
+	}
+
+	.infoText {
+		font-size: 18px;
+	}
+}

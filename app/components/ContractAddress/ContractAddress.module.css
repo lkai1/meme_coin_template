@@ -8,16 +8,23 @@
 	margin-bottom: 80px;
 }
 
-.caText {
+.caTextContainer {
 	padding: 20px;
 	background-color: white;
-	font-family: dynapuff;
-	font-size: 28px;
 	border-top-left-radius: 20px;
 	border-bottom-left-radius: 20px;
 	border: 5px solid black;
 	border-right: 2.5px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.caText {
+	font-family: dynapuff;
+	font-size: 28px;
 	font-weight: bold;
+	margin: 0;
 }
 
 .copyButton {
@@ -36,4 +43,102 @@
 
 .copyButton:active {
 	background-color: rgb(186, 49, 49);
+}
+
+
+@media (max-width: 1000px) {
+	.caText {
+		font-size: 24px;
+	}
+
+	.copyButton {
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 800px) {
+	.main {
+		flex-direction: column;
+		margin-top: 80px;
+		margin-bottom: 80px;
+	}
+
+	.caTextContainer {
+		border-radius: 0;
+		border-top-right-radius: 20px;
+		border-top-left-radius: 20px;
+		border: 5px solid black;
+		border-bottom: 2.5px solid black;
+	}
+
+	.caText {
+		font-size: 16px;
+	}
+
+	.copyButton {
+		font-size: 16px;
+		border-radius: 0;
+		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
+		border: 5px solid black;
+		border-top: 2.5px solid black;
+		width: 450px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 500px) {
+	.main {
+		flex-direction: column;
+		margin-top: 80px;
+		margin-bottom: 80px;
+	}
+
+	.caTextContainer {
+		overflow-x: scroll;
+		width: 300px;
+	}
+
+	.caText {
+		font-size: 13px;
+	}
+
+	.copyButton {
+		font-size: 13px;
+		border-radius: 0;
+		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
+		border: 5px solid black;
+		border-top: 2.5px solid black;
+		width: 350px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 360px) {
+	.main {
+		flex-direction: column;
+		margin-top: 80px;
+		margin-bottom: 80px;
+	}
+
+	.caTextContainer {
+		overflow-x: scroll;
+		width: 250px;
+	}
+
+	.caText {
+		font-size: 13px;
+	}
+
+	.copyButton {
+		font-size: 13px;
+		border-radius: 0;
+		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
+		border: 5px solid black;
+		border-top: 2.5px solid black;
+		width: 300px;
+		text-align: center;
+	}
 }
