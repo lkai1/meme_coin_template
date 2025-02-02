@@ -3,7 +3,7 @@ import InfoContainers from "./components/InfoContainer.jsx/InfoContainers";
 import LinksContainer from "./components/LinksContainer/LinksContainer";
 import MainBanner from "./components/MainBanner/MainBanner";
 import NavBar from "./components/NavBar/NavBar";
-import TokenomicsSlide from "./components/Tokenomics/TokenomicsSlide";
+import TokenomicsSlide from "./components/TokenomicsSlide/TokenomicsSlide";
 import styles from "./page.module.css";
 
 export default function Home() {
