@@ -4,8 +4,8 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
     output: 'export',
-    basePath: isProd ? '/grillz-meme' : '',
-    assetPrefix: isProd ? '/grillz-meme/' : '',
+    basePath: isProd ? '/meme_coin_template' : '',
+    assetPrefix: isProd ? '/meme_coin_template/' : '',
     images: {
         unoptimized: true,
     },
