@@ -1,3 +1,5 @@
+"use client"
+
 import ContractAddress from "./components/ContractAddress/ContractAddress";
 import InfoContainers from "./components/InfoContainer.jsx/InfoContainers";
 import LinksContainer from "./components/LinksContainer/LinksContainer";

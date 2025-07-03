@@ -1,3 +1,5 @@
+"use client"
+
 import styles from "./MainBanner.module.css"
 
 const MainBanner = () => {

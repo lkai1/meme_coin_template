@@ -1,3 +1,5 @@
+"use client"
+
 import styles from "./NavBar.module.css"
 
 const NavBar = () => {

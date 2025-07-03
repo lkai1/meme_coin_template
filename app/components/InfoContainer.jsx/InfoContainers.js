@@ -1,3 +1,5 @@
+"use client"
+
 import styles from "./InfoContainers.module.css"
 
 const InfoContainers = () => {
