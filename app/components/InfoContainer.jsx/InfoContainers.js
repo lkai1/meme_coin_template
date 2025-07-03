@@ -2,10 +2,12 @@ import styles from "./InfoContainers.module.css"
 
 const InfoContainers = () => {
 
+	const basePath = process.env.NODE_ENV === 'production' ? '/meme_coin_template' : '';
+
 	return (
 		<div className={styles.main}>
 			<div className={styles.infoContainer}>
-				<img className={styles.infoImgLeft} src="/images/infoImg.jpg" />
+				<img className={styles.infoImgLeft} src={`${basePath}/images/infoImg.jpg`} />
 				<div className={styles.infoTextContainerLeft}>
 					<p className={styles.infoTextTitle}>
 						About
@@ -26,7 +28,7 @@ const InfoContainers = () => {
 						He is noted for his frequent deaths in earlier seasons and his muffled speech, which is likely the cause of his ostensive lack of focus compared to the other protagonists.
 					</p>
 				</div>
-				<img className={styles.infoImgRight} src="/images/infoImg2.jpg" />
+				<img className={styles.infoImgRight} src={`${basePath}/images/infoImg2.jpg`} />
 			</div>
 		</div>
 	)

@@ -1,10 +1,11 @@
 import styles from "./MainBanner.module.css"
 
 const MainBanner = () => {
+	const basePath = process.env.NODE_ENV === 'production' ? '/meme_coin_template' : '';
 
 	return (
 		<div className={styles.main}>
-			<img src="/images/main_banner.jpg" className={styles.backgroundImg} />
+			<img src={`${basePath}/images/main_banner.jpg`} className={styles.backgroundImg} />
 		</div>
 	)
 }
