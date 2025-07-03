@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'dynapuff';
-  src: url('../public/fonts/DynaPuff-VariableFont_wdth,wght.ttf') format('truetype');
+  /* src: url('/fonts/DynaPuff-VariableFont_wdth,wght.ttf') format('truetype'); */
+  src: url('meme_coin_template/fonts/DynaPuff-VariableFont_wdth,wght.ttf') format('truetype');
 }
 
 html,
