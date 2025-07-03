@@ -21,7 +21,7 @@
 	border: 7px solid black;
 	border-right: 2.5px solid black;
 	object-fit: cover;
-	object-position: right 0%;
+	object-position: 50% 100%;
 }
 
 .infoTextContainerLeft {
@@ -47,7 +47,7 @@
 	border: 7px solid black;
 	border-left: 2.5px solid black;
 	object-fit: cover;
-	object-position: right 0%;
+	object-position: 50% 50%;
 }
 
 .infoTextContainerRight {
@@ -148,7 +148,7 @@
 		border: 7px solid black;
 		border-top: 2.5px solid black;
 		object-fit: cover;
-		object-position: 80% 50%;
+		object-position: 50% 50%;
 	}
 
 	.infoTextContainerRight {
@@ -203,7 +203,7 @@
 		border: 7px solid black;
 		border-top: 2.5px solid black;
 		object-fit: cover;
-		object-position: 80% 50%;
+		object-position: 50% 50%;
 	}
 
 	.infoTextContainerRight {
@@ -287,7 +287,7 @@
 		border: 7px solid black;
 		border-top: 2.5px solid black;
 		object-fit: cover;
-		object-position: 80% 50%;
+		object-position: 50% 50%;
 	}
 
 	.infoTextContainerRight {

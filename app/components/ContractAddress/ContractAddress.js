@@ -8,11 +8,11 @@ const ContractAddress = () => {
 		<div className={styles.main}>
 			<div className={styles.caTextContainer}>
 				<p className={styles.caText}>
-					0x594DaaD7D77592a2b97b725A7AD59D7E188b5bFa
+					0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
 				</p>
 			</div>
 			<button className={styles.copyButton} onClick={async () => {
-				await navigator.clipboard.writeText("0x594DaaD7D77592a2b97b725A7AD59D7E188b5bFa")
+				await navigator.clipboard.writeText("0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2")
 			}}>
 				Copy
 			</button>
