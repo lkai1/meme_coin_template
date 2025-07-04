@@ -7,7 +7,7 @@ const MainBanner = () => {
 
 	return (
 		<div className={styles.main}>
-			<img src={`${basePath}/images/main_banner.webp`} className={styles.backgroundImg} />
+			<img src={`${basePath}/images/main_banner.jpg`} className={styles.backgroundImg} />
 		</div>
 	)
 }
